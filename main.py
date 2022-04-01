@@ -16,7 +16,7 @@ async def hello_page(name: Optional[str] = '', message: Optional[str] = ''):
             f'{message}!', media_type='text/html'
         )
     return Response(
-        'who are u?', media_type='text/html')
+        'Hello world!', media_type='text/html')
 
 
 if __name__ == '__main__':
